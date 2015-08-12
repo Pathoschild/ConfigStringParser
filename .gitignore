@@ -1,0 +1,18 @@
+## Ignore Visual Studio files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+[Dd]ebug/
+[Rr]elease/
+[Oo]bj/
+.vs/
+
+# ReSharper
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# NuGet Packages
+*.nupkg
+**/packages/*
+!**/packages/repositories.config
