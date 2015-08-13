@@ -16,7 +16,7 @@ HostName=example.com; Port=587; EnableSsl=true
 <pre>
 public class EmailConfig
 {
-   public HostName { get; set;}
+   public string HostName { get; set;}
    public int Port { get; set; }
    public bool EnableSSL { get; set;}
 }
@@ -66,6 +66,7 @@ You can optionally add data annotations to your class:
 * [`[Required]`](https://msdn.microsoft.com/en-us/library/system.componentmodel.dataannotations.requiredattribute.aspx) means the value must be defined. If you try to map a config string without it, you'll get an informative `KeyNotFoundException`.
 * [`[DisplayName("Other Name")]`](https://msdn.microsoft.com/en-us/library/system.componentmodel.displaynameattribute.aspx) provides an alternative name that can appear in the config string. For example, this lets you map a config string like `Host Name=example.com` to a property named `HostName`.
 
+The parser will automatically map most primitive types (including `bool`, `string`, `Guid`, `double`, `int`, `long`, `short`, and enums), but doesn't handle dates.
 
 ### Comparing strings
 You can check whether a string is equivalent to another one (regardless of order or formatting):

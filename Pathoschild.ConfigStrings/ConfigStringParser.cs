@@ -48,7 +48,10 @@ namespace Pathoschild.ConfigStrings
         ** Constructors
         ***/
         /// <summary>Construct an instance.</summary>
-        public ConfigStringParser() { }
+        public ConfigStringParser()
+        {
+            this.Builder = new DbConnectionStringBuilder();
+        }
 
         /// <summary>Construct an instance.</summary>
         /// <param name="configString">The config string which contains serialised key-value settings.</param>

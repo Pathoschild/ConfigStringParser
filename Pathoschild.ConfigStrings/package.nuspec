@@ -4,7 +4,7 @@
 		<id>Pathoschild.ConfigStringParser</id>
 		<version>0.1.0</version>
 		<authors>Jesse Plamondon-Willard</authors>
-		<description>A tiny library which lets you read and write any configuration values into a connection strings, and convert freely between string and object representations.</description>
+		<description>A tiny library which lets you read and write any configuration values into a connection string, and convert freely between string and object representations.</description>
 		<licenseUrl>https://creativecommons.org/licenses/by/3.0/</licenseUrl>
 		<projectUrl>https://github.com/Pathoschild/ConfigStringParser#readme</projectUrl>
 		<iconUrl>https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Noun_project_3067.svg/128px-Noun_project_3067.svg.png</iconUrl>
