@@ -4,11 +4,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Pathoschild.ConfigStringParser")]
-[assembly: AssemblyDescription("Provides a strongly-typed parser for building and consuming arbitrary connection strings.")]
+[assembly: AssemblyTitle("Pathoschild.ConfigStrings.Tests")]
+[assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Pathoschild.ConfigStringParser")]
+[assembly: AssemblyProduct("Pathoschild.ConfigStrings.Tests")]
 [assembly: AssemblyCopyright("")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -19,7 +19,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("5888a97b-d021-4db4-be20-e982a2ec3c00")]
+[assembly: Guid("93b447bb-bc46-47bb-82bf-7f1f77cd3629")]
 
 // Version information for an assembly consists of the following four values:
 //

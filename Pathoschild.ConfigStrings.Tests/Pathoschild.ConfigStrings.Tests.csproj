@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{5888A97B-D021-4DB4-BE20-E982A2EC3C00}</ProjectGuid>
+    <ProjectGuid>{93B447BB-BC46-47BB-82BF-7F1F77CD3629}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Pathoschild.ConfigStrings</RootNamespace>
-    <AssemblyName>Pathoschild.ConfigStrings</AssemblyName>
+    <RootNamespace>Pathoschild.ConfigStrings.Tests</RootNamespace>
+    <AssemblyName>Pathoschild.ConfigStrings.Tests</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -30,14 +30,30 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="nunit.framework, Version=2.6.4.14350, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77, processorArchitecture=MSIL">
+      <HintPath>..\Pathoschild.ConfigStrings\packages\NUnit.2.6.4\lib\nunit.framework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System" />
-    <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Data" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ConfigStringParser.cs" />
+    <Compile Include="ConfigStringParserTests.cs" />
+    <Compile Include="Models\GenericConfig.cs" />
+    <Compile Include="Models\ITestableModel.cs" />
+    <Compile Include="Models\SampleEnum.cs" />
+    <Compile Include="Models\SimpleConfig.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Pathoschild.ConfigStrings\Pathoschild.ConfigStrings.csproj">
+      <Project>{5888a97b-d021-4db4-be20-e982a2ec3c00}</Project>
+      <Name>Pathoschild.ConfigStrings</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
