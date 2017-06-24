@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pathoschild.ConfigStrings", "Pathoschild.ConfigStrings.csproj", "{5888A97B-D021-4DB4-BE20-E982A2EC3C00}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pathoschild.ConfigStrings", "Pathoschild.ConfigStrings\Pathoschild.ConfigStrings.csproj", "{5888A97B-D021-4DB4-BE20-E982A2EC3C00}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pathoschild.ConfigStrings.Tests", "..\Pathoschild.ConfigStrings.Tests\Pathoschild.ConfigStrings.Tests.csproj", "{93B447BB-BC46-47BB-82BF-7F1F77CD3629}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pathoschild.ConfigStrings.Tests", "Pathoschild.ConfigStrings.Tests\Pathoschild.ConfigStrings.Tests.csproj", "{93B447BB-BC46-47BB-82BF-7F1F77CD3629}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3382DAFA-B447-4B62-B4CD-E640B5E9D17C}"
 	ProjectSection(SolutionItems) = preProject
